@@ -4,7 +4,6 @@ import React from 'react';
 import { Route } from 'react-router-dom'; 
 import HomePage from './components/pages/HomePage'; // import homepage from pages component
 import LoginPage from './components/pages/LoginPage';
-import FormReact from './components/pages/FormReact';
  // import logo from './logo.svg';
  // import './App.css';
  // App component is like a routerdispatcher:renders depending on route so we add Routes inside App()
@@ -12,7 +11,6 @@ import FormReact from './components/pages/FormReact';
 const App = () => <div> 
     <Route path = "/" exact component = {HomePage}/>
     <Route path = "/login" exact component = {LoginPage}/>
-    <Route path = "/FormReact" exact component = {FormReact}/>
 </div>;
 
  // class App extends Component {
