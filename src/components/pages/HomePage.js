@@ -7,6 +7,7 @@ const HomePage = () => (
         <h1>Home Page </h1>
         {/* inside to="/" is the route, need to create it in app.js */}
         <Link to="/login"> Login </Link> 
+        <Link to="/NameForm"> Form </Link> 
     </div>
 );
 
