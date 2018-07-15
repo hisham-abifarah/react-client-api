@@ -11,7 +11,7 @@ export const userLoggedIn = user => ({
 // api.user.login(credentials).then(dispatch(userLoggedIn(user)));
 // //  api.user.login(credentials).then(res => dispatch(userLoggedIn(user)));
 
-export const login = (credentials) => dispatch =>
+export const login = credentials => dispatch =>
   api.user.login(credentials).then(user => {
     dispatch(userLoggedIn(user));
   });
